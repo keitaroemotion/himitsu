@@ -4,7 +4,7 @@ const CREDENTIAL_FILE_PATH: &str = "/usr/local/etc/him/.credential";
 
 fn main() {
     let cipher = read_file(CREDENTIAL_FILE_PATH);
-    println!("{}", cipher);
+    println!("content: {}", cipher);
 }
 
 //

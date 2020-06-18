@@ -1,0 +1,4 @@
+ETC=/usr/local/etc/him
+BIN=/usr/local/bin
+mkdir -p $ETC
+touch $ETC/.credential

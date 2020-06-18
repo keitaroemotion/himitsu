@@ -2,5 +2,6 @@ set -e
 sudo rm -rf bin
 sudo mkdir -p bin
 sudo cargo build
-# sudo mv target/debug/ddos-tester bin
-# sudo ./bin/ddos-tester $HOST/api/v1/employees "Bearer $token" $THREAD_TOTAL
+sudo rm /usr/local/bin/him
+sudo mv target/debug/him /usr/local/bin/
+him
