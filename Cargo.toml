@@ -1,5 +1,5 @@
 [package]
-name = "scripts"
+name = "him"
 version = "0.1.0"
 authors = ["Kei Sugano <kei.sugano@h-t.co.jp>"]
 edition = "2018"
